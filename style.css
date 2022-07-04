@@ -19,7 +19,7 @@ p {
     color: orange;
 }
 
-section {
+.part-1 {
     display: flex;
 }
 
@@ -65,4 +65,46 @@ section {
     color: aliceblue;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.part-2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+
+.new-container {
+    box-shadow: 10px 20px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+
+.new-container h2 {
+    color: orange;
+
+}
+
+.last-part {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#box-arranged {
+    border-left: 7px solid tomato;
+}
+
+#box-arranged-2 {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
+
 }
