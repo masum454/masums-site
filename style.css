@@ -80,8 +80,8 @@ p {
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 20px;
-    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
@@ -107,4 +107,8 @@ p {
 footer p {
     text-align: center;
 
+}
+
+section {
+    margin-bottom: 100px;
 }
